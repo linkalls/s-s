@@ -35,7 +35,7 @@ go run pngtopdf.go
 一括で記事の元urlをtxtに保存できます。
 
 ```bash
-go run url.go
+go run url.go https://example.com/
 ```
 
 
