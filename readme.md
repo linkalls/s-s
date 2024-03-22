@@ -30,6 +30,15 @@ go run pngtopdf.go
 
 このコマンドを実行すると、`@pngtopdf.go`は`USERPROFILE/Downloads/yuyublog`ディレクトリ内の各フォルダをスキャンし、それぞれのフォルダに含まれる画像をPDFに変換します。変換されたPDFは、`USERPROFILE/Downloads/yuyublog/pdf`ディレクトリに保存されます。
 
+## 3. 一括で画像urlを保存
+
+一括で記事の元urlをtxtに保存できます。
+
+```bash
+go run url.go
+```
+
+
 ## 注意事項
 
 - ダウンロードされた画像のフォルダ名には、Windowsのファイル名に使用できない文字が含まれている場合があります。これらの文字は`@yuyu.go`によって削除または置換されます。
